@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "roboto-example";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.eot");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "roboto-example";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "operasans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/OpenSans/OpenSans.eot");
+  src: url("../fonts/OpenSans/OpenSans.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/OpenSans.woff") format("woff"), url("../fonts/OpenSans/OpenSans.ttf") format("truetype");
+}

@@ -1,0 +1,61 @@
+.about
+   margin-bottom: 65px
+   position: relative
+   &::before
+      content: ''
+      background-image: url('../img/about/about-bg.png')
+      width: 600px
+      height: 500px
+      position: absolute
+      top: 121px
+      right: 0
+      bottom: 0
+      left: 0
+      transform: translateX(-100px)
+   &__item
+      margin-right: 90px
+      &:last-child
+         margin-right: 0
+   &__inner
+      display: flex
+      justify-content: space-between
+   &-slider
+      &__arrows
+         &--right
+            position: absolute
+            bottom: -56px
+            right: 34px
+            padding: 5px 15px
+            cursor: pointer
+            z-index: 1
+         &--left
+            position: absolute
+            bottom: -56px
+            left: 0
+            padding: 5px 15px
+            cursor: pointer
+            z-index: 1
+
+   &__box
+      width: 510px
+      & .text
+         margin-bottom: 20px
+         line-height: 32px
+         &:last-child
+            margin-bottom: 0
+
+.js-slider-about
+   max-width: 405px
+   position: relative
+   &::before
+      content: ''
+      background-image: url('../img/about/bg.png')
+      content: ''
+      width: 405px
+      height: 405px
+      position: absolute
+      top: 28px
+      left: 28px
+
+.slider-about__item-img-mobile
+   display: none

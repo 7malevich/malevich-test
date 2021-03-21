@@ -1,0 +1,14 @@
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* identical to box height, or 156% */
+ *
+ *    color: rgba(196, 196, 196, 0.5 */

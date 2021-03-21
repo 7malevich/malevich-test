@@ -1,0 +1,22 @@
+.decsription__inner {
+  display: flex;
+}
+.decsription__list {
+  margin-right: 16px;
+}
+.decsription__list:first-child {
+  min-width: 200px;
+}
+.decsription__list:last-child {
+  margin-right: 0;
+}
+.decsription__item {
+  margin-bottom: 36px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+}
+.decsription__item:last-child {
+  margin-bottom: 36px;
+}

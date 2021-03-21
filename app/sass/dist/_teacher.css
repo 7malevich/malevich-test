@@ -1,0 +1,71 @@
+.teacher {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 124px;
+}
+.teacher__more {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* identical to box height, or 175% */
+ *
+ *    display: flex
+ *    align-items: center
+ *    text-align: center
+ *
+ *    color: #6D29FE
+ * &__title
+ *    font-weight: bold
+ *    font-size: 20px
+ *    line-height: 28px
+ *    margin-bottom: 2px
+ * &__text
+ *    font-weight: 300
+ *    line-height: 28px
+ *    color: $electric
+ * &__item
+ *    position: relative
+ *    &-img
+ *       margin-bottom: 20px
+ *       max-width: 298px
+ *       height: 270px
+ *       z-index: 5
+ *    &:nth-child(1n)
+ *       &::before
+ *          content: ''
+ *          width: 298px
+ *          height: 270px
+ *          border: 1px solid $black
+ *          position: absolute
+ *          top: 10px
+ *          left: 12px
+ *          z-index: -1
+ *    &:nth-child(2n)
+ *       &::before
+ *          content: ''
+ *          width: 298px
+ *          height: 270px
+ *          border: 1px solid $electric
+ *          position: absolute
+ *          top: 10px
+ *          left: 12px
+ *          z-index: -1
+ *    &:nth-child(3n)
+ *       &::before
+ *          content: ''
+ *          width: 298px
+ *          height: 270px
+ *          border: 1px solid $screamin
+ *          position: absolute
+ *          top: 10px
+ *          left: 12px
+ *          z-index: -1
+ *
+ *    &-img
+ *       margin-bottom: 20px
+ *       max-width: 298px
+ *       height: 270px
+ *       z-index: 5 */

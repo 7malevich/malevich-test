@@ -1,0 +1,21 @@
+.mobile.valide {
+  background-image: url("../img/close.svg");
+}
+
+.menu-mobile__items.valide {
+  display: block;
+}
+
+.menu-mobile__items {
+  display: block;
+}
+.menu-mobile__lists {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.menu-mobiles {
+  display: none;
+}
