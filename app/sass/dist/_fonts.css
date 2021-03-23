@@ -2,27 +2,27 @@
   font-family: "roboto-example";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.eot");
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Regular.ttf") format("truetype");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayRegular.eot");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayRegular.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayRegular.ttf") format("truetype");
 }
 @font-face {
   font-family: "roboto-example";
   font-weight: bold;
   font-style: normal;
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Bold.eot");
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Bold.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Bold.ttf") format("truetype");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayBold.eot");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayBold.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "roboto-example";
   font-weight: 500;
   font-style: normal;
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Medium.eot");
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Medium.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Medium.ttf") format("truetype");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayMedium.eot");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayMedium.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayMedium.ttf") format("truetype");
 }
 @font-face {
   font-family: "roboto-example";
   font-weight: 300;
   font-style: normal;
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Light.eot");
-  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Light.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplay-Light.ttf") format("truetype");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayLight.eot");
+  src: url("../fonts/SFUITextSemiboldItalic/SFUIDisplayLight.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayLight.woff") format("woff"), url("../fonts/SFUITextSemiboldItalic/SFUIDisplayLight.ttf") format("truetype");
 }

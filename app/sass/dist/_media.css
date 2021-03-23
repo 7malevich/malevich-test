@@ -1,5 +1,3 @@
-/*==========  Desktop First  ==========*/
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1280px) {
   .about {
     position: relative;
@@ -83,6 +81,30 @@
   }
 }
 @media only screen and (max-width: 1100px) {
+  .about-slider__arrows--left {
+    position: absolute;
+    bottom: 22px;
+    right: 80px;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .about-slider__arrows--right {
+    position: absolute;
+    bottom: 22px;
+    right: -7px;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .pagingInfo {
+    position: absolute;
+    bottom: 32px;
+    right: 114px;
+  }
+
   .slider-comment__soc {
     max-width: 77px;
     max-height: 18px;
@@ -133,9 +155,9 @@
     margin-right: 63px;
   }
 }
-@media only screen and (max-width: 1050px) {
-  .header__logo {
-    transform: translateX(0px);
+@media only screen and (max-width: 991px) {
+  .comments__img {
+    height: 422px;
   }
 }
 @media only screen and (max-width: 956px) {
@@ -160,9 +182,36 @@
   }
 }
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 940px) {
+  .about__item:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+
   .about__box {
-    width: 390px;
+    max-width: 510px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .comments__inner {
+    height: 437px;
+  }
+
+  .slick-initialized.slick-slide {
+    height: 467px;
+  }
+
+  .comments__photo {
+    min-width: 228px;
+    min-height: 422px;
+    object-fit: cover;
+    flex: 1;
+  }
+  .comments__photo .comments__img {
+    min-width: 228px;
+    min-height: 422px;
+    object-fit: cover;
+    flex: 1;
   }
 
   .menu__list {
@@ -176,6 +225,14 @@
 }
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 885px) {
+  .slider-comment__box:last-child {
+    flex: 1;
+  }
+  .slider-comment__box:first-child {
+    width: 235px;
+  }
+}
 @media only screen and (max-width: 833px) {
   .partner {
     display: none;
@@ -218,6 +275,42 @@
   }
 }
 @media only screen and (max-width: 773px) {
+  .pagingInfo {
+    position: absolute;
+    bottom: 31px;
+    left: 232px;
+  }
+
+  .about__item {
+    width: 100%;
+  }
+  .about__item .about__box {
+    width: 100%;
+  }
+
+  .pagingInfo {
+    position: absolute;
+    bottom: 31px;
+    right: 287px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .slider-comment__item {
+    border: 1px solid #000000;
+    padding: 45px 12px;
+  }
+
+  .slider-comment__box:first-child {
+    display: none;
+  }
+
+  .slider-comment__mobile-img {
+    margin-right: 18px;
+  }
+
   .menu__nav {
     display: none;
   }
@@ -298,6 +391,12 @@
   }
 }
 @media only screen and (max-width: 660px) {
+  .header__navigation-list .btn {
+    width: 160px;
+    font-size: 12px;
+    padding: 12px 19px;
+  }
+
   .teacher__item {
     display: block;
     text-align: center;

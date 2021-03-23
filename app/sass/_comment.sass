@@ -1,63 +1,79 @@
-.slider-comment
-   &__item
+.comment
+   margin-bottom: 130px
+   &__inner
       display: flex
-      //flex-wrap: nowrap
       //justify-content: space-between
    &__box
-      //width: 550px
+      margin-right: 67px
+      &:last-child
+         min-width: 550px
+         flex: 1 0 550px
+         margin-right: 0
       &-inner
          display: flex
+         align-items: center
          justify-content: space-between
-         align-items: flex-start
-   &__soc
+      & .text
+         font-size: 16px
+         line-height: 28px
+         margin-bottom: 36px
+         &:last-child
+            margin-bottom: 36px
+   &__photo
+      max-width: 318px
+      min-width: 220px
+      height: 476px
+      object-fit: contain
+   &__mobile
       display: flex
-      align-items: center
-      height: 18px
-      &-list
-         margin-right: 5px
+      //align-items: center
+      margin-bottom: 36px
+      &-img
+         display: none
    &__title
       font-weight: bold
       font-size: 24px
       line-height: 29px
       letter-spacing: 0.03em
-      margin-bottom: 32px
-   &__img
-      margin-right: 67px
-      max-width: 318px
-      height: 476px
-   &__arrows
-      &--right
-         position: absolute
-         bottom: -56px
-         right: 34px
-         padding: 5px 15px
-         cursor: pointer
-         z-index: 1
-      &--left
-         position: absolute
-         bottom: -56px
-         left: 0
-         padding: 5px 15px
-         cursor: pointer
-         z-index: 1
 
-.slick-initialized
-   & .slick-slide
+.comments
+   &__title
+      font-weight: bold
+      font-size: 24px
+      line-height: 29px
       display: flex
+      align-items: center
+      letter-spacing: 0.03em
+      margin-bottom: 24px
+   &__inner
+      display: flex
+   &__img
+      width: 318px
+      height: 476px
+      object-fit: cover
+      margin-right: 65px
+   &__photo
+      min-height: 422px
+   &__mobile
+      display: flex
+      align-items: flex-start
+   &__box
+      width: 550px
+      & .text
+         margin-bottom: 38px
+      &-inner
+         display: flex
+         align-items: flex-start
+         justify-content: space-between
 
-.s-comment
-   margin-bottom: 180px
-
-.slider-comment__mobile-img
-   visibility: hidden
-
-.slider-comment__title
-   //margin-bottom: 0
-   //margin-left: 15px
-.slider-comment__box-inner
-   align-items: baseline
-
-.slider-comment__box-inner
-   align-items: baseline
-   height: 35px
-   transform: translateY(-50px)
+.comments__mobile
+   & .comments__mobile-img
+      display: none
+.comments__box-inner
+   & .soc
+      height: 30px
+      li
+         a
+            img
+               width: 18px
+               height: 18px

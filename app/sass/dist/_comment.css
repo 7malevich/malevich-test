@@ -1,66 +1,95 @@
-.slider-comment__item {
+.comment {
+  margin-bottom: 130px;
+}
+.comment__inner {
   display: flex;
 }
-.slider-comment__box-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+.comment__box {
+  margin-right: 67px;
 }
-.slider-comment__soc {
+.comment__box:last-child {
+  min-width: 550px;
+  flex: 1 0 550px;
+  margin-right: 0;
+}
+.comment__box-inner {
   display: flex;
   align-items: center;
-  height: 18px;
+  justify-content: space-between;
 }
-.slider-comment__soc-list {
-  margin-right: 5px;
+.comment__box .text {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 36px;
 }
-.slider-comment__title {
+.comment__box .text:last-child {
+  margin-bottom: 36px;
+}
+.comment__photo {
+  max-width: 318px;
+  min-width: 220px;
+  height: 476px;
+  object-fit: contain;
+}
+.comment__mobile {
+  display: flex;
+  margin-bottom: 36px;
+}
+.comment__mobile-img {
+  display: none;
+}
+.comment__title {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.03em;
-  margin-bottom: 32px;
-}
-.slider-comment__img {
-  margin-right: 67px;
-  max-width: 318px;
-  height: 476px;
-}
-.slider-comment__arrows--right {
-  position: absolute;
-  bottom: -56px;
-  right: 34px;
-  padding: 5px 15px;
-  cursor: pointer;
-  z-index: 1;
-}
-.slider-comment__arrows--left {
-  position: absolute;
-  bottom: -56px;
-  left: 0;
-  padding: 5px 15px;
-  cursor: pointer;
-  z-index: 1;
 }
 
-.slick-initialized .slick-slide {
+.comments__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 24px;
+}
+.comments__inner {
   display: flex;
 }
-
-.s-comment {
-  margin-bottom: 180px;
+.comments__img {
+  width: 318px;
+  height: 476px;
+  object-fit: cover;
+  margin-right: 65px;
+}
+.comments__photo {
+  min-height: 422px;
+}
+.comments__mobile {
+  display: flex;
+  align-items: flex-start;
+}
+.comments__box {
+  width: 550px;
+}
+.comments__box .text {
+  margin-bottom: 38px;
+}
+.comments__box-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.slider-comment__mobile-img {
-  visibility: hidden;
+.comments__mobile .comments__mobile-img {
+  display: none;
 }
 
-.slider-comment__box-inner {
-  align-items: baseline;
+.comments__box-inner .soc {
+  height: 30px;
 }
-
-.slider-comment__box-inner {
-  align-items: baseline;
-  height: 35px;
-  transform: translateY(-50px);
+.comments__box-inner .soc li a img {
+  width: 18px;
+  height: 18px;
 }

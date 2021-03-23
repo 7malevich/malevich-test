@@ -26,22 +26,22 @@
 }
 .about-slider__arrows--right {
   position: absolute;
-  bottom: -56px;
-  right: 34px;
+  bottom: -64px;
+  right: -7px;
   padding: 5px 15px;
   cursor: pointer;
   z-index: 1;
 }
 .about-slider__arrows--left {
   position: absolute;
-  bottom: -56px;
-  left: 0;
+  bottom: -64px;
+  right: 80px;
   padding: 5px 15px;
   cursor: pointer;
   z-index: 1;
 }
 .about__box {
-  width: 510px;
+  max-width: 510px;
 }
 .about__box .text {
   margin-bottom: 20px;
@@ -68,4 +68,13 @@
 
 .slider-about__item-img-mobile {
   display: none;
+}
+
+.pagingInfo {
+  position: absolute;
+  bottom: -55px;
+  right: 55px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
 }
